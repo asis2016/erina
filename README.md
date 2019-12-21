@@ -1,7 +1,6 @@
 # Erina React BS4
 
-Erina is a ReactJS Bootstrap 4 theme for travel website. <br/>
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Erina is a ReactJS Bootstrap 4 theme for travel website. This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 
 ## Available Scripts
