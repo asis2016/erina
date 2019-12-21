@@ -1,6 +1,4 @@
 import styled from "styled-components";
-import {DefaultStyle} from "../../assets/style/Style";
-
 
 export const FeatureStyleFourBase = styled.div`
 
