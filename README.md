@@ -1,16 +1,37 @@
 # Erina React BS4
+Erina is a React Bootstrap 4 theme for travel website. This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-Erina is a ReactJS Bootstrap 4 theme for travel website. This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Tech Stack
+React, TypeScript, HTML/CSS, SASS, styled-components, Bootstrap 4
 
+## Run Locally
+Clone the project
 
-## Available Scripts
+```bash
+  git clone https://github.com/asis2016/erina-react-bootstrap4.git
+```
 
-In the project directory, you can run:
+Go to the project directory
 
-### `npm start`
+```bash
+  cd erina-react-bootstrap4
+```
 
-Runs the app in the development mode. Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Install dependencies
+
+```bash
+  npm install
+```
+
+Start the server
+
+```bash
+  npm run start
+```
+
+## Demo
+
 
 ## Screenshot
-![Screenshot](/screenshot.png)
+![Screenshot](/screenshots/screenshot-v2.png)
 
