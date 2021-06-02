@@ -1,4 +1,4 @@
-import React, {FC} from "react";
+import React, {FC, Fragment} from "react";
 import {FeatureStyleThreeBase} from "./FeatureStyleThree.style";
 import {Col, Container, Row} from "react-bootstrap";
 import {FeatureStyleThreeContent} from "../../assets/content";
@@ -11,10 +11,10 @@ interface IProps {
 export const FeatureStyleThree: FC<IProps> = (props) => {
     return <FeatureStyleThreeBase>
         <Container>
-            {FeatureStyleThreeContent.map((item) => {
+            {FeatureStyleThreeContent.map((item, index) => {
                     if ((item.id) % 2 != 1) {
                         return (
-                            <>
+                            <Fragment key={index}>
                                 <Row className="align-items-center">
                                     <Col md={7}>
                                         <h2 className="heading">
@@ -30,11 +30,11 @@ export const FeatureStyleThree: FC<IProps> = (props) => {
                                     </Col>
                                 </Row>
                                 <hr className="divider"/>
-                            </>
+                            </Fragment>
                         )
                     } else {
                         return (
-                            <>
+                            <Fragment key={index}>
                                 <Row className="align-items-center">
                                     <Col md={5}>
                                         <img src={require("../../assets/images/" + item.img)} alt=""
@@ -50,7 +50,7 @@ export const FeatureStyleThree: FC<IProps> = (props) => {
                                     </Col>
                                 </Row>
                                 <hr className="divider"/>
-                            </>
+                            </Fragment>
                         )
                     }
                 }

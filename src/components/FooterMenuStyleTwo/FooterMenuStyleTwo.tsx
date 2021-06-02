@@ -1,7 +1,5 @@
 import React, {FC} from 'react';
 import {FooterMenuStyleTwoBase} from "./FooterMenuStyleTwo.style";
-import {Col, Row} from "react-bootstrap";
-import {FooterMenuStyleOneContent} from "../../assets/content";
 
 interface IProps {
     id?: number;

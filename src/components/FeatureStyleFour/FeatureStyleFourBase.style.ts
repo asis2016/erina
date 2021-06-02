@@ -21,8 +21,11 @@ export const FeatureStyleFourBase = styled.div`
   .col{
     background-size: cover;
     padding: 50px;
-    padding-top: 100px;
     min-height: 80vh;
+  }
+  
+  h2{
+    padding-top: 170px;
   }
   
    h2, .price{

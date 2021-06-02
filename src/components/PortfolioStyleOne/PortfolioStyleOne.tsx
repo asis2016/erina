@@ -1,12 +1,12 @@
 import React, {FC} from "react"
 import {Card, Carousel, Col, Image, Row} from "react-bootstrap";
-import {PortfolioStyleOneContent, MagazineStyleOneCarouselContent} from "../../assets/content";
+import {PortfolioStyleOneContent} from "../../assets/content";
 import {PortfolioStyleOneBase} from "./PortfolioStyleOne.style";
 
 interface IProps {
     title: string;
     caption: string;
-};
+}
 
 export const PortfolioStyleOne: FC<IProps> = (props) => {
     return <PortfolioStyleOneBase>
@@ -22,25 +22,25 @@ export const PortfolioStyleOne: FC<IProps> = (props) => {
             <div className="row justify-content-md-center">
                 <div className="col-md-auto">
                     <Carousel>
-                        {PortfolioStyleOneContent.map((item) =>
-                                <Carousel.Item>
-                                    <Card>
-                                        <Card.Body>
-                                            <Image src={require(`../../assets/images/` + item.imageUrl)} fluid/>
-                                            <h4 className="pt-4">{item.name}</h4>
-                                            <p>
-                                                {item.content}
-                                            </p>
-                                            <p>
-                                                <i className="fa fa-star"></i>
-                                                <i className="fa fa-star"></i>
-                                                <i className="fa fa-star"></i>
-                                                <i className="fa fa-star"></i>
-                                                <i className="fa fa-star"></i>
-                                            </p>
-                                        </Card.Body>
-                                    </Card>
-                                </Carousel.Item>
+                        {PortfolioStyleOneContent.map((item, index) =>
+                            <Carousel.Item key={index}>
+                                <Card>
+                                    <Card.Body>
+                                        <Image src={require(`../../assets/images/` + item.imageUrl)} fluid/>
+                                        <h4 className="pt-4">{item.name}</h4>
+                                        <p>
+                                            {item.content}
+                                        </p>
+                                        <p>
+                                            <i className="fa fa-star"></i>
+                                            <i className="fa fa-star"></i>
+                                            <i className="fa fa-star"></i>
+                                            <i className="fa fa-star"></i>
+                                            <i className="fa fa-star"></i>
+                                        </p>
+                                    </Card.Body>
+                                </Card>
+                            </Carousel.Item>
                         )}
                     </Carousel>
                 </div>

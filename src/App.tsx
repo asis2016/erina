@@ -8,21 +8,25 @@ import {FeatureStyleFour} from "./components/FeatureStyleFour/FeatureStyleFourBa
 import {GalleryStyleOne} from "./components/GalleryStyleOne/GalleryStyleOne";
 import {PortfolioStyleOne} from "./components/PortfolioStyleOne/PortfolioStyleOne";
 import {MasterHeaderStyleTwo} from "./components/MasterHeaderStyleTwo/MasterHeaderStyleTwo";
+import MasterNavigation from "./components/MasterNavigation/MasterNavigation";
 
 const App: React.FC = () => {
 
     return <AppBase>
 
+        {/* Navigation */}
+        <MasterNavigation/>
+
         {/* Master head */}
         <MasterHeaderStyleTwo/>
 
-         {/*Feature Styled Two*/}
+        {/*Feature Styled Two*/}
         <FeatureStyleTwo title={"Unser Hotelangebot"}
                          caption={`Curabitur blandit tempus porttitor. Nullam quis risus eget urna mollis ornare vel eu leo.
                         Nullam id dolor id nibh ultricies vehicula ut id elit.`}
         />
 
-         {/*Feature Styled Four*/}
+        {/*Feature Styled Four*/}
         <FeatureStyleFour title={"Make a reservation"} caption={"..."}/>
 
         {/*Feature Styled Three*/}
@@ -38,7 +42,7 @@ const App: React.FC = () => {
 
         {/*CardProfileSimple*/}
         <PortfolioStyleOne title={"Von unseren Gästen"}
-                             caption={`Curabitur blandit tempus porttitor. Nullam quis risus eget urna mollis ornare vel eu leo.
+                           caption={`Curabitur blandit tempus porttitor. Nullam quis risus eget urna mollis ornare vel eu leo.
                         Nullam id dolor id nibh ultricies vehicula ut id elit.`}
         />
 
@@ -48,7 +52,7 @@ const App: React.FC = () => {
                            Nullam id dolor id nibh ultricies vehicula ut id elit.`}
         />
 
-         {/*Footer Menu*/}
+        {/*Footer Menu*/}
         <FooterMenuStyleTwo/>
 
     </AppBase>

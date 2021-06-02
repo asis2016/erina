@@ -29,8 +29,8 @@ export const GalleryStyleOne: FC<IProps> = (props) => {
             </Row>
 
             <Row>
-                {GalleryStyleOneContent.map((item) =>
-                    <Col className="p-2 col-2 gallery">
+                {GalleryStyleOneContent.map((item, index) =>
+                    <Col className="p-2 col-2 gallery" key={index}>
                         <img src={require("../../assets/images/gallery/" + item.img)} alt="" className="gallery-img"/>
                         <div className="overlay"></div>
                         <span className="badge badge-primary-erina">{item.tag}</span>

@@ -1,62 +1,50 @@
 import styled from "styled-components";
-import {DefaultStyle} from "../../assets/style/Style";
+import mastheadBg from '../../../src/assets/images/feature-11.jpg'
 
 export const MasterHeaderStyleTwoBase = styled.div`
+`;
 
-  
-  .overlay{
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-color: rgba(0,0,0,0.3);
-    z-index: 1;
-  }
-  
-  .search{
-    position: absolute;
-    left: 0;
-    right: 0;
-    bottom: 100px;
-    z-index: 3;
-  }
-  
-  .carousel-item-content{
-        position: absolute;
-        left: 0px;
-        right: 0px;
-        bottom: 200px;
-        z-index: 3;
-        border-radius: 4px;
-  }
-  
-  .carousel-item-content .col-md-8{
-    background: rgba(0,0,0,0.5);
-    padding: 40px;
-    text-align: center;
-  }
-  
-  .carousel-item-content h1, p{
+export const MastHeadBase = styled.div`
+  padding-top: 10.5rem;
+  padding-bottom: 6rem;
+  text-align: center;
+  color: #fff;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.1)), url(${mastheadBg});
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  background-size: cover;
+
+  .masthead-subheading {
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+    margin-bottom: 25px;
     color: #fff;
   }
-  
-  .carousel-item{
-    height: 100vh;
-    background-size: cover;
-  }
-  
-  .carousel-control-next-icon, .carousel-control-prev-icon{
-    height: 80px;
-    width: 80px;
-    z-index: 5;
-  }
-  
-  .input-group-text{
-    background: ${DefaultStyle.primary};
-    border-color: ${DefaultStyle.primary};
+
+  .masthead-heading {
+    font-size: 3.25rem;
+    font-weight: 700;
+    line-height: 3.25rem;
+    margin-bottom: 2rem;
     color: #fff;
+  }
+
+  @media (min-width: 768px) {
+    padding-top: 17rem;
+    padding-bottom: 12.5rem;
+
+    .masthead-subheading {
+      font-size: 2.25rem;
+      line-height: 2.25rem;
+      margin-bottom: 2rem;
+    }
+
+    .masthead-heading {
+      font-size: 4.5rem;
+      font-weight: 700;
+      line-height: 4.5rem;
+      margin-bottom: 4rem;
+    }
   }
 `;

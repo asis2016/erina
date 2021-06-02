@@ -13,9 +13,9 @@ export const FeatureStyleFour: FC<IProps> = (props) => {
         <Container fluid>
             <Row>
                 <div className="overlay"></div>
-                {FeatureStyleFourContent.map((item) =>
-                    <Col
-                        style={{backgroundImage: "url(" + require("../../assets/images/" + item.img) + ")"}}>
+                {FeatureStyleFourContent.map((item, index) =>
+                    <Col key={index}
+                         style={{backgroundImage: "url(" + require("../../assets/images/" + item.img) + ")"}}>
                         <h2>{item.title}</h2>
                         <p className="price">from ${item.price}</p>
                         <button className="btn btn-primary-outline-erina">Eine Reservierung machen</button>

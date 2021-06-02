@@ -11,7 +11,6 @@ interface IProps {
 export const BlogPostStyleTwo: FC<IProps> = (props) => {
     return <BlogPostStyleTwoBase>
         <Container>
-
             <Row className="pb-5">
                 <Col md={{span: 6, offset: 3}} className="text-center">
                     <h1>{props.title}</h1>
@@ -20,8 +19,8 @@ export const BlogPostStyleTwo: FC<IProps> = (props) => {
             </Row>
 
             <Row>
-                {BlogPostStyleTwoContent.map((item) =>
-                    <Col xs={4}>
+                {BlogPostStyleTwoContent.map((item, index) =>
+                    <Col xs={4} key={index}>
                         <div className="card mb-4 box-shadow">
                             <img className="card-img-top"
                                  alt=""

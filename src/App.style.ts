@@ -62,4 +62,17 @@ p, li, a, ul, .btn {
   color: #fff;
 }
 
+  .logo{
+    height: 50px;
+  }
+
+  @media (min-width: 992px) {
+    #mainNav {
+      padding-top: 25px;
+      padding-bottom: 25px;
+      transition: padding-top .3s, padding-bottom .3s;
+      border: none;
+    }
+  }
+
 `;
