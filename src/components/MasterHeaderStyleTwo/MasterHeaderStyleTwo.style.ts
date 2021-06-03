@@ -9,7 +9,8 @@ export const MastHeadBase = styled.div`
   padding-bottom: 6rem;
   text-align: center;
   color: #fff;
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.1)), url(${mastheadBg});
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.1)),
+    url(${mastheadBg});
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -46,5 +47,14 @@ export const MastHeadBase = styled.div`
       line-height: 4.5rem;
       margin-bottom: 4rem;
     }
+  }
+
+  @media screen and (min-width: 992px) {
+    padding-top: 0;
+    padding-bottom: 0;
+    height:  calc(100vh - 100px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 `;
