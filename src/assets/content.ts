@@ -24,7 +24,7 @@ export const MagazineStyleOneCarouselContent = [
     },
     {
         id: 1,
-        caption: 'Quis autem vel eum iure eos qui ratione voluptatem.',
+        caption: 'Quis autem vel eum iure eos qui ratione vol.',
         title: 'Consequuntur magni',
         img: 'seminar-2.jpg'
     },
@@ -230,13 +230,13 @@ export const FeatureStyleTwoContent = [
     },
     {
         id: 1,
-        caption: 'Quis autem vel eum iure eos qui ratione voluptatem.',
+        caption: 'Quis autem vel eum iure eos qui ratione.',
         title: 'Consequuntur magni',
         faIcon: 'trophy'
     },
     {
         id: 1,
-        caption: 'Praesent nec nibh venenatis, convallis odio sit amet.',
+        caption: 'Praesent nec nibh venenatis, convallis odi.',
         title: 'Aliquam iaculis',
         faIcon: 'gift'
     },
