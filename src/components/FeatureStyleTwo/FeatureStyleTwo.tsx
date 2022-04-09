@@ -23,7 +23,9 @@ export const FeatureStyleTwo: FC<IProps> = (props) => {
                         <i className={`fa fa-` + item.faIcon}></i>
                         <h4 className="pt-2">{item.title}</h4>
                         <p>{item.caption}</p>
-                        <p><a className="btn btn-primary-erina" href="#">View details</a></p>
+                        <p>
+                        <button className="btn btn-primary-erina">View details</button>
+                        </p>
                     </Col>
                 )}
             </Row>

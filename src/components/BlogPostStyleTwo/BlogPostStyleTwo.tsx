@@ -20,7 +20,7 @@ export const BlogPostStyleTwo: FC<IProps> = (props) => {
 
             <Row>
                 {BlogPostStyleTwoContent.map((item, index) =>
-                    <Col xs={4} key={index}>
+                    <Col lg={4} md={6} sm={12} xs={12} key={index}>
                         <div className="card mb-4 box-shadow">
                             <img className="card-img-top"
                                  alt=""

@@ -30,7 +30,7 @@ export const GalleryStyleOne: FC<IProps> = (props) => {
 
             <Row>
                 {GalleryStyleOneContent.map((item, index) =>
-                    <Col className="p-2 col-2 gallery" key={index}>
+                    <Col className="p-2 gallery lg-2 md-4 xs-12 sm-6" key={index}>
                         <img src={require("../../assets/images/gallery/" + item.img)} alt="" className="gallery-img"/>
                         <div className="overlay"></div>
                         <span className="badge badge-primary-erina">{item.tag}</span>

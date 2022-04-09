@@ -84,22 +84,22 @@ export const FooterMenuStyleTwo: FC<IProps> = (props) => {
 
         <div className="row no-gutters social">
             <div className="col">
-                <a className="social-inner" href="#">
+                <a className="social-inner" href="">
                     <i className="fa fa-twitter"></i> Twitter
                 </a>
             </div>
             <div className="col">
-                <a className="social-inner" href="#">
+                <a className="social-inner" href="">
                     <i className="fa fa-facebook"></i> Facebook
                 </a>
             </div>
             <div className="col">
-                <a className="social-inner" href="#">
+                <a className="social-inner" href="">
                     <i className="fa fa-instagram"></i> Instagram
                 </a>
             </div>
             <div className="col">
-                <a className="social-inner" href="#">
+                <a className="social-inner" href="">
                     <i className="fa fa-youtube"></i> Youtube
                 </a>
             </div>
