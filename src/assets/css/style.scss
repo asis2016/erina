@@ -1,0 +1,49 @@
+// author: Ashish S. Maharjan
+
+@media (max-width: 767px){
+
+    #feature_style_two{
+
+    }
+
+    #feature_style_four {
+        .col{
+            background-size: cover;
+            padding: 50px;
+            min-height: 40vh;
+        }
+
+        h2{
+            padding-top: 15px;
+            font-size: 1.5rem;
+        }
+
+        .btn{
+            font-size: 1.2rem;
+        }        
+    }
+
+    #feature_style_three{
+        
+        padding-top: 25px;
+
+        .col-md-7 {
+            padding: 15px 15px;
+        }
+    }
+
+     /* Unser Hotel Essen */
+    #blog_post_style_two{
+        padding: 25px 0px;
+    }
+
+    /* Von unseren Gästen */
+    #portfolio_style_one{
+    }
+
+    #gallery_style_one{
+    }
+
+    #footer_menu_style_two{
+    }
+}

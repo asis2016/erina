@@ -18,5 +18,4 @@ export const FeatureStyleThreeBase = styled.div`
   @media (min-width: 1200px) {
     padding-top: 170px;
   }
-
 `;

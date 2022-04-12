@@ -9,7 +9,7 @@ interface IProps {
 }
 
 export const FeatureStyleThree: FC<IProps> = (props) => {
-    return <FeatureStyleThreeBase>
+    return <FeatureStyleThreeBase id="feature_style_three">
         <Container>
             {FeatureStyleThreeContent.map((item, index) => {
                     if ((item.id) % 2 != 1) {

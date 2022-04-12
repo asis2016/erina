@@ -1,0 +1,31 @@
+@charset "UTF-8";
+@media (max-width: 767px) {
+  #feature_style_four .col {
+    background-size: cover;
+    padding: 50px;
+    min-height: 40vh;
+  }
+  #feature_style_four h2 {
+    padding-top: 15px;
+    font-size: 1.5rem;
+  }
+  #feature_style_four .btn {
+    font-size: 1.2rem;
+  }
+
+  #feature_style_three {
+    padding-top: 25px;
+  }
+  #feature_style_three .col-md-7 {
+    padding: 15px 15px;
+  }
+
+  /* Unser Hotel Essen */
+  #blog_post_style_two {
+    padding: 25px 0px;
+  }
+
+  /* Von unseren Gästen */
+}
+
+/*# sourceMappingURL=style.css.map */

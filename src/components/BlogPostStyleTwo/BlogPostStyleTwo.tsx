@@ -9,7 +9,7 @@ interface IProps {
 }
 
 export const BlogPostStyleTwo: FC<IProps> = (props) => {
-    return <BlogPostStyleTwoBase>
+    return <BlogPostStyleTwoBase id="blog_post_style_two">
         <Container>
             <Row className="pb-5">
                 <Col md={{span: 6, offset: 3}} className="text-center">

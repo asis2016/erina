@@ -9,7 +9,7 @@ interface IProps {
 }
 
 export const PortfolioStyleOne: FC<IProps> = (props) => {
-    return <PortfolioStyleOneBase>
+    return <PortfolioStyleOneBase id="portfolio_style_one">
         <div className="container">
 
             <Row className="pt-5">

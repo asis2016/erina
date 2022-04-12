@@ -9,7 +9,7 @@ interface IProps {
 }
 
 export const FeatureStyleFour: FC<IProps> = (props) => {
-    return <FeatureStyleFourBase>
+    return <FeatureStyleFourBase id="feature_style_four">
         <Container fluid>
             <Row>
                 <div className="overlay"></div>

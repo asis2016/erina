@@ -11,7 +11,7 @@ interface IProps {
 
 export const GalleryStyleOne: FC<IProps> = (props) => {
 
-    return <GalleryStyleOneBase>
+    return <GalleryStyleOneBase id="gallery_style_one">
 
         <Container>
             <Row className="pb-5">

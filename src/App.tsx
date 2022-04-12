@@ -1,5 +1,6 @@
 import React from 'react';
 import {AppBase} from './App.style';
+import './assets/css/style.css'
 import {FooterMenuStyleTwo} from "./components/FooterMenuStyleTwo/FooterMenuStyleTwo";
 import {BlogPostStyleTwo} from "./components/BlogPostStyleTwo/BlogPostStyleTwo";
 import {FeatureStyleTwo} from "./components/FeatureStyleTwo/FeatureStyleTwo";

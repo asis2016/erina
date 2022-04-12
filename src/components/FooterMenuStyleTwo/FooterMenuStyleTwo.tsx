@@ -6,7 +6,7 @@ interface IProps {
 }
 
 export const FooterMenuStyleTwo: FC<IProps> = (props) => {
-    return <FooterMenuStyleTwoBase>
+    return <FooterMenuStyleTwoBase id="footer_menu_style_two">
         <div className="container-fluid">
             <div className="row">
                 <div className="col-4 pt-2 col-one">

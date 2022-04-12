@@ -9,7 +9,7 @@ interface IProps {
 }
 
 export const FeatureStyleTwo: FC<IProps> = (props) => {
-    return <FeatureStyleTwoBase>
+    return <FeatureStyleTwoBase id="feature_style_two">
         <Container>
             <Row className="pb-5">
                 <Col md={{span: 6, offset: 3}} className="text-center">
