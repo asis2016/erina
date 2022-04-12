@@ -36,7 +36,16 @@ Start the server
 ![Screenshot](/screenshots/screenshot-v2.png)
 
 ## Feedback
-If you have any feedback, please reach out to us at hello@amaharjan.com
+
+If you have any feedback, please reach out to us at dev@asm.com.np
+
+## Contributing
+
+Contributions are always welcome! please contact us at dev@asm.com.np
+
+## License
+
+[MIT (./LICENSE)](./LICENSE)
 
 ## Shout-out
 - [unsplash.com](https://unsplash.com/)
